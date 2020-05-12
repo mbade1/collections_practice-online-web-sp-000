@@ -28,6 +28,6 @@ end
 
 def kesha_maker(array)
   array.each do |i|
-    array[i][2] == "$"
+    [i][2] == "$"
   end
 end
