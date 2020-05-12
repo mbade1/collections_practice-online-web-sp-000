@@ -31,3 +31,11 @@ def kesha_maker(array)
     i[2] = "$"
   end
 end
+
+def find_a(array)
+  array.find_all do |i|
+    if i.start_with?("a")
+      return i
+    end
+  end
+end
